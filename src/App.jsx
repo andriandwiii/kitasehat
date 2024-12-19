@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Login from './pages/Login';
 import Admin from './adminpages/Admin';
 import Admin2 from './adminpages/Admin2';

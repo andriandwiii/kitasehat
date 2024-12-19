@@ -22,7 +22,7 @@ const FooterBrand = () => (
   <section className="lg:max-w-sm">
     <div className="flex items-center mb-4">
       <img
-        src="src/assets/images/logoputih.png"
+        src="assets/images/logoputih.png"
         alt="KitaSehat logo"
         className="mr-2 w-10 h-10 object-contain"
       />

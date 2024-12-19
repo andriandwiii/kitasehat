@@ -64,7 +64,7 @@ const Sidebar = () => {
         <div>
           <div className="flex items-center mb-8">
             {/* Replace the placeholder image with your logo image */}
-            <img src="src/assets/images/logo.png" alt="Logo" className="w-[161px] h-[42px] mr-2" />
+            <img src="assets/images/logo.png" alt="Logo" className="w-[161px] h-[42px] mr-2" />
           </div>
           <nav>
             <ul>

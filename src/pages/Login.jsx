@@ -83,7 +83,7 @@ const LoginPage = () => {
         <div className="w-full max-w-sm">
           <div className="text-center mb-8">
             <img
-              src="src/assets/images/logokecil.png"
+              src="assets/images/logokecil.png"
               alt="Logo"
               className="mx-auto mb-4"
               style={{ width: '50px', height: '50px' }}

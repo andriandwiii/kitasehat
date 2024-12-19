@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 
-const CekObat = () => {
+function CekObat ()  {
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("");
 

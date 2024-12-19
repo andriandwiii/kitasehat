@@ -18,7 +18,7 @@ const messages = [
   { sender: 'doctor', text: 'Bisa tolong jelaskan gejala yang Anda rasakan?', time: '8:07 PM' },
 ];
 
-const KitaSehat = () => {
+function KitaSehat  ()  {
   const [activeConsultation, setActiveConsultation] = useState(0);
   const [messageInput, setMessageInput] = useState('');
 

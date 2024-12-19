@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import axios from 'axios';
 
-const MainContent = () => {
+ function MainContent() {
     const [hospitals, setHospitals] = useState([]);
     const [error, setError] = useState(null);
 

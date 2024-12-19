@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 
-const Content = () => {
+function Content  ()  {
   // Sample data for Jadwal Obat and Janji Dokter
   const medicineSchedules = [
     { id: 1, name: "Paracetamol", instructions: "Minum Satu Pil Setiap 8 Jam" },

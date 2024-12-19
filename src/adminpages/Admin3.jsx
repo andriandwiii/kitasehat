@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
-import Navbar from '../components/navbar1';
+// import Navbar from '../components/navbar1';
 
 const HospitalListPage = () => {
   const [hospitals, setHospitals] = useState([]); // State to store hospitals

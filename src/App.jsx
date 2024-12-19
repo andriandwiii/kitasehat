@@ -23,7 +23,7 @@ import UpdateKonten from './adminpages/updatekonten';
 import UpdateRumahSakit from './adminpages/updaters';
 import Updateusers from './adminpages/updateusers';
 import Footer from './components/Footer'; 
-import Navbar from './components/navbar1'; 
+// import Navbar from './components/navbar1'; 
 import Sidebar from './components/Sidebar';
 
  // Impor Footer

@@ -8,7 +8,7 @@ import Admin2 from './adminpages/Admin2';
 import Admin3 from './adminpages/Admin3';
 import Admin4 from './adminpages/Admin4';
 import Register from './pages/Register';
-import Fitur1 from './pages/fitur1';
+// import Fitur1 from './pages/Fitur1';
 import Fitur2 from './pages/Fitur2';
 import Fitur3 from './pages/Fitur3';
 import Fitur4 from './pages/Fitur4';
@@ -41,12 +41,12 @@ function App() {
             <Route path="/admin2" element={<Admin2 />} />
             <Route path="/admin3" element={<Admin3 />} />
             <Route path="/admin4" element={<Admin4 />} />
-            <Route path="/fitur1" element={<Fitur1 />} />
-            <Route path="/fitur2" element={<Fitur2 />} />
-            <Route path="/fitur3" element={<Fitur3 />} />
-            <Route path="/fitur4" element={<Fitur4 />} />
-            <Route path="/fitur5" element={<Fitur5 />} />
-            <Route path="/fitur6" element={<Fitur6 />} />
+            <Route path="/Fitur1" element={<Fitur1 />} />
+            <Route path="/Fitur2" element={<Fitur2 />} />
+            <Route path="/Fitur3" element={<Fitur3 />} />
+            <Route path="/Fitur4" element={<Fitur4 />} />
+            <Route path="/Fitur5" element={<Fitur5 />} />
+            <Route path="/Fitur6" element={<Fitur6 />} />
             <Route path="/addkonten" element={<Addkonten />} />
             <Route path="/info" element={<Info />} />
             <Route path="/addrs" element={<Addrs />} />

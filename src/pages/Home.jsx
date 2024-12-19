@@ -26,42 +26,42 @@ const ServiceCard = ({ imgSrc, color, title, description, imgSize }) => (
 
 const services = [
   {
-    imgSrc: 'src/assets/images/cari.png',
+    imgSrc: 'assets/images/cari.png',
     color: 'white',
     title: 'Cari Dokter',
     description: 'Pilih dokter Anda dari ribuan rumah sakit spesialis, umum, dan terpercaya.',
     imgSize: 'w-30 h-30'
   },
   {
-    imgSrc: 'src/assets/images/obat.png',
+    imgSrc: 'assets/images/obat.png',
     color: 'white',
     title: 'Apotek Daring',
     description: 'Beli obat Anda dengan aplikasi seluler kami dengan sistem pengiriman sederhana',
     imgSize: 'w-30 h-30'
   },
   {
-    imgSrc: 'src/assets/images/konsul.png',
+    imgSrc: 'assets/images/konsul.png',
     color: 'yellow',
     title: 'Konsultasi',
     description: 'Konsultasi gratis dengan dokter terpercaya kami dan dapatkan rekomendasi terbaik',
     imgSize: 'w-30 h-30'
   },
   {
-    imgSrc: 'src/assets/images/pengingat.png',
+    imgSrc: 'assets/images/pengingat.png',
     color: 'purple',
     title: 'Detail Pengingat',
     description: 'Pengingat untuk pengobatan, minum obat sesuai resep, jadwal janji temu dengan dokter, dan aktivitas kesehatan lainnya.',
     imgSize: 'w-30 h-30'
   },
   {
-    imgSrc: 'src/assets/images/kontenedu.png',
+    imgSrc: 'assets/images/kontenedu.png',
     color: 'white',
     title: 'Konten Edukasi',
     description: 'Mencegah penyakit Menular dan tidak menular seperti penyakit jantung, diabetes, dan gangguan mental',
     imgSize: 'w-30 h-30'
   },
   {
-    imgSrc: 'src/assets/images/pelacakan.png',
+    imgSrc: 'assets/images/pelacakan.png',
     color: 'teal',
     title: 'Pelacakan',
     description: 'Lacak dan simpan riwayat kesehatan dan data kesehatan Anda',
@@ -91,7 +91,7 @@ const Home = () => {
       <header className="p-6 bg-white shadow-md w-full">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <img src="src/assets/images/logokecil.png" alt="KitaSehat logo" className="mr-2" />
+            <img src="assets/images/logokecil.png" alt="KitaSehat logo" className="mr-2" />
             <span className="text-2xl font-bold text-green-600">KitaSehat</span>
           </div>
 
@@ -143,7 +143,7 @@ const Home = () => {
           </article>
           <figure className="lg:w-1/2 mt-6 lg:mt-0">
             <img
-              src="src/assets/images/illustration.png"
+              src="assets/images/illustration.png"
               alt="Illustration of virtual health services"
               className="mx-auto"
             />

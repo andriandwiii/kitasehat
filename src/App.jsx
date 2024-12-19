@@ -8,7 +8,6 @@ import Admin2 from './adminpages/Admin2';
 import Admin3 from './adminpages/Admin3';
 import Admin4 from './adminpages/Admin4';
 import Register from './pages/Register';
-// import Fitur1 from './pages/Fitur1';
 import Fitur2 from './pages/Fitur2';
 import Fitur3 from './pages/Fitur3';
 import Fitur4 from './pages/Fitur4';
@@ -25,6 +24,8 @@ import Updateusers from './adminpages/updateusers';
 import Footer from './components/Footer'; 
 // import Navbar from './components/navbar1'; 
 import Sidebar from './components/Sidebar';
+import Fitur1 from './pages/App'; // Pastikan nama file benar-benar "Fitur1.jsx"
+
 
  // Impor Footer
 
